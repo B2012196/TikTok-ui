@@ -1,0 +1,51 @@
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 */
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.account-info {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.06);
+    }
+    border-radius: 4px;
+}
+
+.account-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.item-info {
+    flex: 1;
+    margin-left: 12px;
+}
+.nickname {
+    font-size: 1.6rem;
+    color: black;
+    line-height: 1;
+}
+.check {
+    font-size: 1.4rem;
+    color: rgb(32, 213, 236);
+    margin-left: 6px;
+}
+.name {
+    font-size: 1.2rem;
+    color: rgba(22, 24, 35, 0.5);
+}
